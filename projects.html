@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css"> <!-- Include your custom CSS file here -->
+</head>
+<style>
+  body {
+    background-image: url("background.jpeg"); /* Replace "background-image.jpg" with the path to your desired image */
+    background-size: cover; /* Adjust the background size to cover the entire element */
+    background-position: center; /* Center the background image */
+  }
+  .project-card {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  .project-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+</style>
+<body>
+  <header>
+    <h1><a href="Main.html" style="text-decoration: none;"><span style="color: red;">My Portfolio</span></a></h1>
+    <nav>
+      <ul style="margin-left: 70%;">
+        <li><a href="About.html">About</a></li>
+        <li><a href="skills.html">Skills</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="projects">
+    <h2 style="text-align: center;"><span style="color: red;">My Projects</span></h2>
+    <div class="project-card">
+      <h3>Hand Gesture Recognition</h3>
+      <a href="hand-gesture-recognition.html">
+        <img src="project_image.png" alt="Hand Gesture Recognition Project">
+      </a>
+      <p>This project involves recognizing hand gestures to control a car. It uses machine learning algorithms and ESP hardware to achieve accurate gesture recognition.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Siddhant Mishra. All rights reserved.</p>
+  </footer>
+</body>
+</html>
